@@ -1,0 +1,85 @@
+html,body { margin:0; height:100%;}
+/* Fond d'écran */
+
+.fond1
+{
+    background-image: url("../img/fond1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fond2
+{
+
+    background-color: deepskyblue ;
+
+}
+.fond3
+{
+
+    background-color: #adb5bd ;
+    height: 100%;
+
+}
+
+
+.h1rouge{
+    color: red;
+    font-style: italic;
+}
+
+.h5blanc{
+    color: white;
+
+}
+.paragraphe1{
+    font-size:22px
+}
+
+.parallax
+{
+    background-image: url("../img/terre-battue-synthetique.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paddindtop{
+
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .fond1
+    {
+        background-image: url("../img/Fondmobile.png");
+        height: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    .h1a
+    {
+        color: white;
+        font-size: 22px;
+
+    }
+    .parallax
+    {
+        background-image: url("../img/terre-battue-synthetique.jpg");
+        height: 120%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+
+
+}
+
