@@ -5,7 +5,7 @@
     <title>Projet Final Alexandre Dubé Jean</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -52,7 +52,7 @@
             <a>  <input  type="button" id="couprevert" class="btn btn-danger" value="Info coup revert "> </a>
         </div>
         <div class="col-xl-4">
-            <h3> Voici le coup droit</h3>
+            <h3> Voici le service</h3>
 
 
             <img src="img/service.jpg" class="img-fluid"/>
@@ -68,6 +68,14 @@
 <div class="container ">
     <div class="row">
         <div class="col-xl-12">
+            <div data-aos="fade-up">
+
+                <h3>Voici le smash</h3>
+                <img src="img/smash.jpg" height="649" width="1024"/>
+                <p id="descriptionsmash"></p>
+                <a>  <input  type="button" id="smash" class="btn btn-danger" value="Info smash "> </a>
+            </div>
+
             <footer>
                 <p>Site internet à titre éducatif produit par Alexandre Dubé Jean étudiant en technique informatique. </p>
             </footer>
@@ -81,6 +89,10 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/scripthover.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 
 </body>

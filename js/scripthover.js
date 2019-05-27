@@ -52,9 +52,13 @@ $("#service").click(function(){
 
 });
 
-$("#tommyalex").click(function(){
-    $("#tommyalex").attr("width","200" );
+$("#smash").click(function(){
+    $("#descriptionsmash").html("                       Le smash est un puissant coup d'attaque.\n" +
+        "                Il permet souvent de terminer le point, car l'adversaire peut très rarement le retourner.   ");
+
+
 });
+
 
 
 
