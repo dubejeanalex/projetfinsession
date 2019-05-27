@@ -1,3 +1,0 @@
-$('p').css("color","green")
-
-
