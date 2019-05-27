@@ -1,6 +1,8 @@
 html,body { margin:0; height:100%;}
 /* Fond d'écran */
 
+
+
 .fond1
 {
     background-image: url("../img/fond1.jpg");
@@ -21,26 +23,6 @@ html,body { margin:0; height:100%;}
     height: 100%;
 
 }
-
-
-.h1rouge{
-    color: red;
-    font-style: italic;
-}
-
-.h5blanc{
-    color: white;
-
-}
-.prouge2{
-    color: yellow;
-    font-size: 20px;
-
-}
-.paragraphe1{
-    font-size:22px
-}
-
 .parallax
 {
     background-image: url("../img/terre-battue-synthetique.jpg");
@@ -50,6 +32,32 @@ html,body { margin:0; height:100%;}
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*-------------------------fin fond écran---------------------------------*/
+
+
+/*-------------------- Changement du texte---------------------------- */
+.h1rouge{
+    color: red;
+    font-style: italic;
+}
+
+.h5blanc{
+    color: white;
+
+}
+.pjaune{
+    color: yellow;
+    font-size: 20px;
+}
+.paragraphe1{
+    font-size:22px
+}
+
+/*---------------------------- fin changement du texte-------------------------*/
+
+/*----------------------------- Mise en page ---------------------------------*/
+
 .paddindtop{
 
     padding-top: 5%;
@@ -59,20 +67,12 @@ html,body { margin:0; height:100%;}
 
     padding-top: 15%;
 }
+/*--------------------------- Fin mise en page -----------------------------*/
 
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
 
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+/* -------------------------media queries ---------------------------------------- */
 
+/* media queries cellulaire */
 @media only screen and (max-width: 480px)
 {
     .fond1
@@ -102,6 +102,8 @@ html,body { margin:0; height:100%;}
 
 }
 
+/* media queries tablette */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .fond1
@@ -127,6 +129,8 @@ html,body { margin:0; height:100%;}
 
 
 /* Trouver ce code css sur le site suivant: https://codepen.io/ccrch/pen/yyaraz */
+
+/* Me permet de faire afficher un zoom sur mes photos dans la gallerie d'image */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
 body {
@@ -181,4 +185,4 @@ body {
     font-size: 32px;
     line-height: 32px;
 }
-
+/* Trouver ce code css sur le site suivant: https://codepen.io/ccrch/pen/yyaraz */

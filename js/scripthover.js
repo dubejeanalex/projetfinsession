@@ -27,8 +27,13 @@ $('.tile')
 
 //----------------------------------------------------------------------------------------------------------------//
 
+// Script qui change la couleur du <p> en utilisant le .css
 $('#paragraphevert').css("color","green")
+// Script qui change la couleur du <p> en utilisant le .css
 $('#paragraphebleu').css("color","blue")
+
+
+// script qui utilise le .html pour ajouter un paragraphe quand on appuie sur un bouton
 
 $("#coupdroit").click(function(){
     $("#descriptioncoupdroit").html("                Le coup droit est un des coups les plus puissant au tennis.\n" +
@@ -36,6 +41,7 @@ $("#coupdroit").click(function(){
 
 
 });
+// script qui utilise le .html pour ajouter un paragraphe quand on appuie sur un bouton
 
 $("#couprevert").click(function(){
     $("#descriptioncouprevert").html("                Le coup du revert est souvent un option qu'on ne choisi pas,\n" +
@@ -44,6 +50,7 @@ $("#couprevert").click(function(){
 
 
 });
+// script qui utilise le .html pour ajouter un paragraphe quand on appuie sur un bouton
 
 $("#service").click(function(){
     $("#descriptionservice").html("                       Le service est un des coups qui fait une grande différence dans une partie. C'est le coup initial et il est très important de le maîtriser.\n" +
@@ -51,6 +58,7 @@ $("#service").click(function(){
 
 
 });
+// script qui utilise le .html pour ajouter un paragraphe quand on appuie sur un bouton
 
 $("#smash").click(function(){
     $("#descriptionsmash").html("                       Le smash est un puissant coup d'attaque.\n" +
@@ -58,6 +66,14 @@ $("#smash").click(function(){
 
 
 });
+// script qui utilise l'attibue attr pour pouvoir donner un titre à la photo du tableau d'affichage
+
+$(document).ready(function() {
+    $("#tableaupointage").attr("title", "tableau pointage");
+});
+
+
+
 
 
 
